@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.tooltip{
+  font-family: 'Cafe24SsurroundAir';
+  position:fixed;
+  font-size: 35px;
+  left:83%;
+  bottom:88%;
+  border-bottom: 1px solid;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    font-size:24px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 10%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  html{margin:0;padding:0;}
+  body {
+    padding: 25px;
+    margin:0;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+  }
+  .dark_toggle{
+    position:fixed;
+   left:96%;
+ bottom:90%;
+   }
+  h1 {
+    display:flex;
+    position:relative;
+    justify-content: center;
+    line-height: 28;
+    font-size: 35px;
+  }
+  
+  span::before {
+    content: "? ? ?";
+    animation: animate infinite 15s;
+    padding-left: 20px; /*<h1>과 <span> 사이 간격 유지(띄어 쓰기)*/
+    color: #d33162;
+  }
+  
+  @keyframes animate {
+    0% {
+      content: "? ? ?";
+    }
+    35% {
+      content: "타인의 비판을 담담히 받아들이는 나";
+    }
+  
+    50% {
+      content: "계획을 단계적으로 실행하는 나";
+    }
+  
+    75% {
+      content: "문제를 제대로 직면하는 나";
+    }
+  
+    95% {
+      content: "백엔드 개발자인 나";
+    }
+  }
+  .texts{
+    font-family: 'Cafe24SsurroundAir';
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(219, 102, 141);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #be4272;
+  }
+  
+  .imgs{
+    position:relative;
+    width:300px;
+    height:300px;
+  }
+  .title{
+    position: relative;
+    text-align: center;
+    bottom:-200px;
+    font-size:25px;
+    margin:0;
+    padding:0;
+  }
+  
+  * {box-sizing: border-box;}
+  
+  .mySlides {
+    position:relative;
+    text-align:center;
+  }
+  
+  
+  /* Slideshow container */
+  .slideshow {
+    position: relative;
+    margin:10px;
+    text-align: center;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #db5d7c;
+    font-size: 20px;
+    padding: 8px 8px;
+    position: relative;;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cafe24SsurroundAir';
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    padding:0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display:inline-flex;
+    position:relative;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 15px 50px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  label[for=fname]{
+position:relative;
+    right:-25px;
+  }
+
+  .button {
+    position:relative;
+    background-color: white;
+    color: black;
+    border: 2px solid #d13c75; /* yellow border button */
+    font-size: 16px;
+    cursor: pointer;
+    cursor:pointer;
+    left:-30px;
+  }
+  .button:hover{
+    background-color:rgb(173, 52, 99);
+    color:rgb(255, 255, 255);
+  }
+
+

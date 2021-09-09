@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./selfie.ico" type="image/x-icon" />
+    <title>FAMILY</title>
+    <link rel="stylesheet" href="./family.css">
+    <script src='./dark_mode.js'></script>
+</head>
+
+<body>
+    
+    <div class="tooltip">온:미(ME)
+        <p class="tooltiptext">전부의(온)+ME(미)</p>
+    </div>
+
+    <button onclick="myFunction()" class='dark_toggle'>🌙</button>
+    <main class="bg"> <!--배경이미지-->
+        <label for="fname">🖤</label>
+        <input type="text" id="fname" name="fname" placeholder='Ｇｕｅｓｓ　ｗｈｏ　Ｉ　ａｍ　ｉｎ　ｔｈｉｓ　ｆａｍｉｌｙ　ｐｈｏｔｏ！'>
+        <button onclick="submit()" class="button">𝗰𝗹𝗶𝗰𝗸</button>
+
+        <button class='me_hint' onclick="me_hint()"></button> <!--guess hint button-->
+        <p id="me_demo"></p><!--hint-->
+
+        <button class='father_hint' onclick="father_hint()"></button> <!--guess hint button-->
+        <p id="father_demo"></p><!--hint-->
+
+        <button class='mother_hint' onclick="mother_hint()"></button> <!--guess hint button-->
+        <p id="mother_demo"></p><!--hint-->
+
+        <button class='sis_hint' onclick="sis_hint()"></button> <!--guess hint button-->
+        <p id="sis_demo"></p><!--hint-->
+        
+        <button class='br_hint' onclick="br_hint()"></button> <!--guess hint button-->
+        <p id="br_demo"></p><!--hint-->
+
+        <p class='small'>인물 얼굴을 클릭해보세요!</p>
+    </main>
+
+    <p class='text_title'>Ｔｈｅｒｅ　ａｒｅ　５　ｐｅｏｐｌｅ　ｉｎ　ｍｙ　ｆａｍｉｌｙ</p>
+    <h1 class='texts' style="margin: 0; padding:0;">저의 가족에는 <span></span>&nbsp;있습니다 .</h1>
+    <script src='./hint.js'></script>
+</body>
+
+</html>

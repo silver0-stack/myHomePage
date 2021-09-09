@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.tooltip{
+  font-family: 'Cafe24SsurroundAir';
+  position:fixed;
+  font-size: 35px;
+  left:83%;
+  bottom:88%;
+  border-bottom: 1px solid;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    font-size:24px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 10%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+ body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    
+  }
+  
+  .dark-mode {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+  }
+  .dark_toggle{
+    position:fixed;
+  left:96%;
+ bottom:90%;
+   }
+  h1 {
+    display:flex;
+    justify-content:center;
+    line-height:18;
+    font-size:35px; 
+  }
+  
+  span::before {
+    content: " ? ? ? ";
+    animation: animate infinite 10s;
+    padding-left: 15px;
+    color:#3a9dc4;
+
+  }
+  
+  @keyframes animate {
+    
+    5%{
+      content: " ? ? ? ";
+    }
+    35% {
+      content: "최은영";
+    }
+  
+    50% {
+      content: "소프트웨어융합 전공 ";
+    }
+  
+    75% {
+      content: "3학년 ";
+    }
+  
+    95% {
+      content: "ESFP ";
+    }
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#3ba1c9;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #208eb9;
+  }
+  .selfie2{
+    margin:10px;
+    position:relative;
+    width:500px;
+    height:600px;
+    float:left;
+  }
+  .img_div{
+    padding:100px;
+  }
+  .text{
+      position: relative;
+      top:-150px;
+      font-family: 'Cafe24SsurroundAir';
+  }
+  
+  
+  .text_title{
+    margin:0;
+    position: relative;
+    font-size:25px;
+    text-align: center;
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 15px 50px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  label[for=fname]{
+   position:relative;
+    right:-25px;
+  }
+
+  .button {
+    position:relative;
+    background-color: white;
+    color: black;
+    border: 2px solid #6edbe9; /* yellow border button */
+    font-size: 16px;
+    cursor: pointer;
+    cursor:pointer;
+    left:-30px;
+  }
+  .button:hover{
+    background-color:rgb(69, 188, 218);
+    color:rgb(255, 255, 255);
+  }
+
