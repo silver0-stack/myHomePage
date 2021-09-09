@@ -1,5 +1,6 @@
 # 👁‍🗨프리뷰
-<img src="![Uploading ezgif.com-gif-maker.gif]">
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/76518850/132673959-e72002f2-b947-44b8-812e-c4aa8a89848c.gif)
+
 # 1. 프로젝트에 대해
 ## 👩‍💻프로젝트 만든 이유
 2021-1 교양 과목의 기말 대체 프로젝트로 만들었습니다.
